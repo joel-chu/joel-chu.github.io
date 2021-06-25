@@ -1,0 +1,31 @@
+{
+  "name": "joelchu_com",
+  "version": "1.0.0",
+  "description": "joelchu.com website",
+  "main": "index.js",
+  "scripts": {
+    "test": "none",
+    "11ty": "npx @11ty/eleventy --input=./src --output=docs --formats=liquid,md,jpg,png,gif",
+    "serve": "npm run 11ty -- --serve",
+    "cp": "cp -R ./node_modules/bootstrap/dist ./docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joel-chu/joelchu_com.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "Joel Chu <joelckchu@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/joel-chu/joelchu_com/issues"
+  },
+  "homepage": "https://github.com/joel-chu/joelchu_com#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.2"
+  }
+}
