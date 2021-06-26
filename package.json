@@ -24,8 +24,5 @@
   "homepage": "https://github.com/joel-chu/joelchu_com#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1"
-  },
-  "dependencies": {
-    "bootstrap": "^5.0.2"
   }
 }
