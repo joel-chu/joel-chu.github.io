@@ -1,6 +1,6 @@
 // 11ty config file
-module.exports = function(eleventyPlugin) {
-  console.log('call here')
+module.exports = function(eleventyConfig) {
+
   eleventyConfig.setLiquidOptions({
     dynamicPartials: true,
     strict_filters: true
