@@ -7,9 +7,11 @@
     "test": "none",
     "11ty": "npx @11ty/eleventy --input=./src --output=docs --formats=liquid,md,jpg,png,gif",
     "serve": "npm run 11ty -- --serve",
-    "cp-bs": "cp -R ./bootstrap/dist ./docs",
-    "cp-icon": "cp -R ./bootstrap/bootstrap-icons/* ./docs/dist",
-    "cp": "npm run cp-bs && npm run cp-icon"
+    "clear-assets": "rm -rf ./docs/assets",
+    "mk-dir": "mkdir -p ./docs/assets/icons",
+    "cp-bs": "cp -R ./bootstrap/dist/* ./docs/assets",
+    "cp-icon": "cp -R ./bootstrap/bootstrap-icons/* ./docs/assets/icons",
+    "cp": "npm run clear-assets && npm run mk-dir && npm run cp-bs && npm run cp-icon"
   },
   "repository": {
     "type": "git",
