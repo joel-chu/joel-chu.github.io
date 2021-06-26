@@ -29,14 +29,14 @@
     <!-- custom stuff end -->
   </head>
   <body>
-    {% render 'blog/nav' %}
+    {% include 'blog/nav' %}
     <!-- main -->
     <main class="container">
       <!-- feature -->
-      {% render 'blog/hero' %}
+      {% include 'blog/hero' %}
       <div class="row mb-2">
-        {% render 'blog/feature' %}
-        {% render 'blog/feature' %}
+        {% include 'blog/feature' %}
+        {% include 'blog/feature' %}
       </div>
       <!-- feature end -->
       <!-- post and sidebar -->
@@ -47,20 +47,20 @@
             From the Firehose
           </h3>
 
-          {% render 'blog/post' %}
+          {% include 'blog/post' %}
 
-          {% render 'blog/pagination' %}
+          {% include 'blog/pagination' %}
         </div>
         <!-- list post end -->
         <!-- sidebar -->
         <div class="col-md-4">
-          {% render 'blog/sidebar' %}
+          {% include 'blog/sidebar' %}
         </div>
         <!-- sidebar end -->
       </div>
       <!-- post and sidebar end -->
     </main>
     <!-- main end -->
-    {% render 'blog/footer' %}
+    {% include 'blog/footer' %}
   </body>
 </html>
