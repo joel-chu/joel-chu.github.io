@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Eleventy 0.12.1">
+    <meta name="description" content="Open source movement is the best implementation of Karl Marx teaching">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <title>Joel Chu - Open source movement is the best implementation of Karl Marx teaching</title>
+    <!-- custom stuff -->
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <link href='./assets/blog.css' rel="stylesheet" />
+    <!-- custom stuff end -->
+  </head>
+  <body>
+    {% render 'blog/nav' %}
+    <!-- main -->
+    <main class="container">
+      <!-- feature -->
+      {% render 'blog/hero' %}
+      <div class="row mb-2">
+        {% render 'blog/feature' %}
+        {% render 'blog/feature' %}
+      </div>
+      <!-- feature end -->
+      <!-- post and sidebar -->
+      <div class="row g-5">
+        <!-- list post -->
+        <div class="col-md-8">
+          <h3 class="pb-4 mb-4 fst-italic border-bottom">
+            From the Firehose
+          </h3>
+
+          {% render 'blog/post' %}
+
+          {% render 'blog/pagination' %}
+        </div>
+        <!-- list post end -->
+        <!-- sidebar -->
+        <div class="col-md-4">
+          {% render 'blog/sidebar' %}
+        </div>
+        <!-- sidebar end -->
+      </div>
+      <!-- post and sidebar end -->
+    </main>
+    <!-- main end -->
+    {% render 'blog/footer' %}
+  </body>
+</html>

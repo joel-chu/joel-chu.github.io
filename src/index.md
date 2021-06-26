@@ -1,5 +1,5 @@
 ---
-layout: layout.liquid
+layout: blog/homepage.liquid
 title: Joel Chu home page
 ---
 # {{ title }}
