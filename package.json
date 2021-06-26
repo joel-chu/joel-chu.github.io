@@ -7,7 +7,9 @@
     "test": "none",
     "11ty": "npx @11ty/eleventy --input=./src --output=docs --formats=liquid,md,jpg,png,gif",
     "serve": "npm run 11ty -- --serve",
-    "cp": "cp -R ./node_modules/bootstrap/dist ./docs"
+    "cp-bs": "cp -R ./bootstrap/dist ./docs",
+    "cp-icon": "cp -R ./bootstrap/bootstrap-icons/* ./docs/dist",
+    "cp": "npm run cp-bs && npm run cp-icon"
   },
   "repository": {
     "type": "git",
