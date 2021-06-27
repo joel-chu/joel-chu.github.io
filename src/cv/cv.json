@@ -1,0 +1,138 @@
+{
+    "cvList": [
+        {
+            "title": "Fullstack mobile app developer",
+            "client": "Anagram",
+            "date": "2021",
+            "desc": [
+                "A mobile game build with Flutter / Dart. Backend using AWS Lambda / DynamoDB / Typescript / Node.js",
+                "see https://gitee.com/NEWBRAN/create-tsdev  https://gitee.com/NEWBRAN/aws-v-cli these are tool set I developed for this project, and open source recently",
+                "Using Websocket / MQTT engine for live competition session.",
+                "An online shopping cart (for paying subscriptions) built with Vue 3 using Vite / paypal as payment solution. And the ad website also using the same tech stack (demo available upon request)"
+            ],
+            "active": false,
+            "tech": [
+                "Flutter",
+                "Dart",
+                "Android",
+                "iOS",
+                "AWS",
+                "Lambda",
+                "DynamoDB",
+                "Typescript",
+                "Node.js",
+                "Websocket",
+                "MQTT"
+            ]
+        },
+        {
+            "title": "Fullstack developer",
+            "client": "H.W. Cayman",
+            "date": "2020",
+            "desc": [
+                "Building a MVP, and turn into their own internal trading desk for their global clients.",
+                "UI - React (using PreactX engine instead of the FB react) Antd (Ant Design by Alibaba) plus jsonql API library using its own built-in JWT validation system",
+                "Backend - Node.js Koa with Jsonql. Database using PostgreSQL access via TypeORM (Model layer written in Typescript).",
+                "Create an experimental Blockchain database/engine using BlockBook (V.1) for using their smart contract feature (using PoS)",
+                "Mobile - a prototype mobile app for customers to use as a 2FA, using Flutter / Dart / Kotlin.",
+                "Desktop - a prototype app build with Electron for multiple platforms to view real-time data, also a built-in chat client using the Jsonql WebSocket extension."
+            ],
+            "active": false,
+            "tech": [
+                "React",
+                "Preact.js",
+                "Antd",
+                "Node.js",
+                "Koa",
+                "Socket",
+                "Flutter",
+                "Dart",
+                "Electron"
+            ]
+        },
+        {
+            "title": "Lead Fullstack Developer",
+            "client": "Govia Thames Link",
+            "date": "2018-2019",
+            "desc": [
+                "Lead a team of developers to create an internal Phonegap / Vue.js mobile app for 7000+ Govia staff, to provide real time train schedule data, station event status and nearby alternative station for transit using Google Map with additional programming layer. ",
+                "Architect, implement and delivery a real time data stream platform to support the mobile application that delivery real time data, using a framework I created during the development - JSONQL (and I have been continue to developing it ever since) It’s a node.js framework that combine Ajax and Websocket, with built in user management with JWT. ",
+                "Also setting up all the cloud platform on Azure, and manage application release with Govia in house IT team.",
+                "This application was featured in London Evening Standard."
+            ],
+            "active": false,
+            "tech": [
+                "Phonegap",
+                "Vue.js",
+                "Google Map",
+                "Node.js",
+                "Koa",
+                "jsonql",
+                "Websocket",
+                "JWT"
+            ]
+        },
+        {
+            "title": "Senior Fullstack Developer",
+            "client": "The Shoot App",
+            "date": "Feb 2018 - June 2018",
+            "desc": [
+                "Create a web platform for their user / admin to manage their game shooting submission, users management responsive reactive web app using React.js / Preact.js, Bulma, Feather.js",
+                "Backend hook up to an IBM Cloudant + REST API.",
+                "The UI using AMP to optimized for SEO."
+            ],
+            "active": false,
+            "tech": [
+                "React.js",
+                "Preact.js",
+                "Bulma",
+                "Feather.js",
+                "Node.js",
+                "IBM Cloudant",
+                "REST",
+                "AMP"
+            ]
+        },
+        {
+            "title": "Senior Fullstack Developer",
+            "client": "Mototrak",
+            "date": "Sep 2017 - Feb 2018",
+            "desc": [
+                "This is an online platform for all the Jaguar dealership (and all their associated brands) to manage car test schedule.",
+                "Upgrade their 12 years old PHP inventory system to Node.js / Restify / IBM Cloudant / Mongodo and React.js. UI Using React / Redux / Bulma"
+            ],
+            "active": false,
+            "tech": [
+                "Node.js",
+                "Restify",
+                "IBM Cloudant",
+                "Mongodb",
+                "React.js",
+                "Redux",
+                "Bulma"
+            ]
+        },
+        {
+            "title": "Senior Fullstack Developer",
+            "client": "HALO Financial",
+            "date": "2016 - 2017",
+            "desc": [
+                "An online currency trading platform that allow customer to purchase / schedule payment multiple currency. The backend using .Net to hook up with various payment gateway, and the live currency trading data stream from Barclay.",
+                "UI Development with Angularjs. Phrase 1.5 upgrade registration part to Angular 4.",
+                "Kiosk live currency quoting system development with Riot and Node.js (Koa based)",
+                "Microsoft CRM dynamic plugins development with Preact.js / React.js modules.",
+                "Node.js / Riot.js based in house CRM system for staff to manage the online article content, it’s also a mini-CII system the staff can just submit a word document, and the CI system will generate HTML files, and publish it online based on the user input schedule."
+            ],
+            "active": false,
+            "tech": [
+                "Angular",
+                "Angular.js",
+                "Node.js",
+                "Riot.js",
+                "Koa",
+                "Microsoft CRM",
+                "Dot Net"
+            ]
+        }
+    ]
+}

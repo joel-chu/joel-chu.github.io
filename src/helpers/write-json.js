@@ -21,5 +21,11 @@ function writeJson(pathToFile, key, objToAdd) {
     .then(json => fsx.writeJson(pathToFile, json, {spaces: 4}))
 }
 
+// util method to clean up the array 
+function cleanUp(str, splitBy) {
+  return str.split(splitBy).map(s => s.trim()).filter(s => s !== "")
+}
+
+
 // named export
-module.exports = { writeJson }
+module.exports = { writeJson, cleanUp }
