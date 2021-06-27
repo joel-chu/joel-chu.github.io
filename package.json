@@ -10,7 +10,9 @@
     "clear-assets": "rm -rf ./docs/assets",
     "mk-dir": "mkdir -p ./docs/assets/icons",
     "cp-bs": "cp -R ./bootstrap/dist/* ./docs/assets",
-    "cp-icon": "cp -R ./bootstrap/bootstrap-icons/fonts/* ./docs/assets/icons",
+    "cp-icon-css": "cp ./src/_assets/icons.css ./docs/assets/icons",
+    "cp-icons": "cp -R ./bootstrap/bootstrap-icons/fonts/* ./docs/assets/icons",
+    "cp-icon": "npm run cp-icons && npm run cp-icon-css",
     "cp-blog": "cp ./src/_assets/blog.css ./docs/assets",
     "cp-timeline": "cp ./src/_includes/components/timeline/timeline.css ./docs/assets",
     "cp:assets": "npm run cp-bs && npm run cp-blog && npm run cp-timeline",
@@ -31,5 +33,8 @@
   "homepage": "https://github.com/joel-chu/joelchu_com#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.5.0"
   }
 }
