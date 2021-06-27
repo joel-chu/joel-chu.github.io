@@ -10,8 +10,8 @@
     "clear-assets": "rm -rf ./docs/assets",
     "mk-dir": "mkdir -p ./docs/assets/icons",
     "cp-bs": "cp -R ./bootstrap/dist/* ./docs/assets",
-    "cp-icon": "cp -R ./bootstrap/bootstrap-icons/* ./docs/assets/icons",
-    "cp-blog": "cp ./tpl/bootstrap-5.0.2-examples/blog/blog.css ./docs/assets",
+    "cp-icon": "cp -R ./bootstrap/bootstrap-icons/fonts/* ./docs/assets/icons",
+    "cp-blog": "cp ./src/_assets/blog.css ./docs/assets",
     "cp": "npm run clear-assets && npm run mk-dir && npm run cp-bs && npm run cp-icon && npm run cp-blog"
   },
   "repository": {
