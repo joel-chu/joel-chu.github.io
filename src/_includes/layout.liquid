@@ -3,8 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+
     <script src="/assets/js/bootstrap.min.js"></script>
+
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/assets/blog.css" rel="stylesheet" />
+
     {% if css %}
       {% for link in css %}
     <link href="{{link}}" rel="stylesheet" />
@@ -14,5 +18,7 @@
   </head>
   <body>
     {{ content }}
+
+    {% include 'footer' %}
   </body>
 </html>
