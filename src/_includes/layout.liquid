@@ -18,8 +18,13 @@
     <title>{{ title }}</title>
   </head>
   <body>
+
+    {% include 'lightnav' %}
+
     {{ content }}
 
     {% include 'footer' %}
+
+    {% include 'sidebar' %}
   </body>
 </html>

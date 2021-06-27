@@ -1,9 +1,10 @@
 ---
 title: Joel Chu CV
+nav_title: Whatever
 layout: layout
 css: ['/assets/timeline.css']
-timelineTitle: 'Joel Chu CV'
+timelineTitle: ''
+
+
 ---
-{% include 'lightnav' %}
 {% include 'components/timeline/timeline' %}
-{% include 'sidebar' %}
