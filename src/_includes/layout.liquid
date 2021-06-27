@@ -3,8 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./dist/css/bootstrap.min.css" rel="stylesheet" />
-    <script src="./dist/js/bootstrap.min.js"></script>
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="/assets/js/bootstrap.min.js"></script>
+    {% if css %}
+      {% for link in css %}
+    <link href="{{link}}" rel="stylesheet" />
+      {% endfor %}
+    {% endif %}
     <title>{{ title }}</title>
   </head>
   <body>

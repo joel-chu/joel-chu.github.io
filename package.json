@@ -12,7 +12,9 @@
     "cp-bs": "cp -R ./bootstrap/dist/* ./docs/assets",
     "cp-icon": "cp -R ./bootstrap/bootstrap-icons/fonts/* ./docs/assets/icons",
     "cp-blog": "cp ./src/_assets/blog.css ./docs/assets",
-    "cp": "npm run clear-assets && npm run mk-dir && npm run cp-bs && npm run cp-icon && npm run cp-blog"
+    "cp-timeline": "cp ./src/_includes/components/timeline/timeline.css ./docs/assets",
+    "cp:assets": "npm run cp-bs && npm run cp-blog && npm run cp-timeline",
+    "cp": "npm run clear-assets && npm run mk-dir && npm run cp:assets && npm run cp-icon"
   },
   "repository": {
     "type": "git",
