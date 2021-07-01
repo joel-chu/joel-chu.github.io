@@ -1,5 +1,7 @@
 # joelchu_com
 
+joel-chu.github.io 
+
 My personal website. Built with the following tools:
 
 - [elevanty](https://www.11ty.dev) A brand new Javascript static site generator
