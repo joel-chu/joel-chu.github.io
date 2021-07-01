@@ -8,16 +8,25 @@
 
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
 
-    {% if css %}
-      {% for link in css %}
-    <link href="{{link}}" rel="stylesheet" />
-      {% endfor %}
-    {% endif %}
-    <title>{{ title }}</title>
+    
+      
+    <link href="/assets/timeline.css" rel="stylesheet" />
+      
+    
+    <title>Joel Chu Filmography</title>
 
   </head>
-  <body{%if bodyClass%} class="{{bodyClass}}"{%endif%}>
+  <body>
     
-    {{ content }}
+    <div class="container">
+  <div class="page-header center">
+    <h1 id="timeline"></h1>
+  </div>
+  <ul class="timeline">
+  
+  </ul>
+</div>
+
+
   </body>
 </html>
